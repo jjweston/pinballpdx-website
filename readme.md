@@ -10,6 +10,26 @@ https://pinballpdx.org/
 > This project is in early development and should be considered a prototype or proof of concept.
 > It is not ready for general use.
 
+## Prerequisites
+
+You need a Java JDK and [Apache Maven](https://maven.apache.org/) to build and run this project.
+We use the [Eclipse Temurin](https://adoptium.net/temurin/) Java JDK, but other JDKs may also work.
+
+This project works with following versions, but other versions may also work:
+
+- Eclipse Temurin:
+    - `25.0.1+8-LTS`
+- Apache Maven:
+    - `3.9.12`
+
+## Building and Running
+
+To build this project: `mvn package`
+
+To run this project: `mvn spring-boot:run`
+
+To access the match page: http://localhost:8080/league/match
+
 ## License
 
 ```text
