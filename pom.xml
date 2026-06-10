@@ -36,6 +36,7 @@ limitations under the License.
 
     <properties>
         <maven.compiler.release>25</maven.compiler.release>
+        <tomcat.version>11.0.22</tomcat.version>
     </properties>
 
     <dependencies>
